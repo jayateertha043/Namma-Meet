@@ -147,7 +147,7 @@ Center(child: InkWell(onTap: (){launch("https://jayateertha043.github.io/Namma-M
                                           width: dwidth * 0.25,
                                           height: 40,
                                           child: TextField(
-                                            controller: subjectText,
+                                            controller: nameText,
                                             decoration: InputDecoration(
                                                 filled: true,
                                                 fillColor: Colors.white70,
@@ -216,7 +216,7 @@ Center(child: InkWell(onTap: (){launch("https://jayateertha043.github.io/Namma-M
                                           width: dwidth * 0.25,
                                           height: 40,
                                           child: TextField(
-                                            controller: nameText,
+                                            controller: subjectText,
                                             decoration: InputDecoration(
                                                 filled: true,
                                                 fillColor: Colors.white70,
@@ -319,7 +319,7 @@ Center(child: InkWell(onTap: (){launch("https://jayateertha043.github.io/Namma-M
                                           width: dwidth * 0.25,
                                           height: 40,
                                           child: TextField(
-                                            controller: subjectText,
+                                            controller: nameText,
                                             decoration: InputDecoration(
                                                 filled: true,
                                                 fillColor: Colors.white70,
