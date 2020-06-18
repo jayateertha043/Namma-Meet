@@ -1,4 +1,4 @@
-# inmeets
+# nammameet
 
 A new Flutter project.
 

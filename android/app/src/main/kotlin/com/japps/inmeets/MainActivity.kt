@@ -1,4 +1,4 @@
-package com.japps.inmeets
+package com.japps.nammameet
 
 import io.flutter.embedding.android.FlutterActivity
 

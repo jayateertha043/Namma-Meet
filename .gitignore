@@ -47,3 +47,5 @@ app.*.map.json
 
 #build files
 build/
+
+flutter build apk --obfuscate --split-debug-info=/nammameet/debug --target-platform android-arm,android-arm64,android-x64 --split-per-abi --release
