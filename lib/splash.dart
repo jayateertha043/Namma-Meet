@@ -1,23 +1,36 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:splashscreen/splashscreen.dart';
 import 'package:nammameet/room.dart';
-class Splash extends StatefulWidget {
+
+class SplashScreen extends StatefulWidget {
   @override
-  _SplashState createState() => _SplashState();
+  _SplashScreenState createState() => _SplashScreenState();
 }
 
-class _SplashState extends State<Splash> {
+class _SplashScreenState extends State<SplashScreen> {
+  @override
+  void initState() {
+    super.initState();
+    Timer(
+        Duration(seconds: 3),
+        () => Navigator.of(context).pushReplacement(MaterialPageRoute(
+            builder: (BuildContext context) => Room())));
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Flexible(
-      child: SplashScreen(
-        seconds: 3,
-        navigateAfterSeconds: Room(),
-        title: new Text('Namma:\n\t\t Meet',style: TextStyle(color: Colors.white,fontSize: 60,fontWeight: FontWeight.bold),),
-        backgroundColor: Colors.deepPurple,
-        loaderColor: Colors.white,
-
-      ),
+    return Scaffold(
+      backgroundColor: Colors.deepPurple,
+      body: Stack(
+        //mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Center(child: Text('Namma:\n\t\t Meet',style: TextStyle(color: Colors.white,fontSize: 80,fontWeight: FontWeight.bold),)),
+            Padding(
+              padding: const EdgeInsets.only(bottom:150),
+              child: Align(alignment: Alignment.bottomCenter,child: CircularProgressIndicator()),
+            )
+          ],
+        ),
     );
   }
 }

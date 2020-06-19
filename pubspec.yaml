@@ -32,7 +32,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  splashscreen: ^1.2.0
   url_launcher: ^5.4.11
   share: '>=0.6.4+3 <2.0.0'
 # For information on the generic Dart part of this file, see the
