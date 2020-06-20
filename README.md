@@ -1,6 +1,21 @@
-# Namma: Meet
+<h1 align="center"></h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/jayateertha043/Namma-Meet/blob/master/LICENCE.txt" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/jayateerthaG" target="_blank">
+    <img alt="Twitter: jayateerthaG" src="https://img.shields.io/twitter/follow/jayateerthaG.svg?style=social" />
+  </a>
+</p>
 
-Namma: Meet -Fast and Secure Video Conference App. Made with ♥ in India
+>Namma: Meet -Fast and Secure Video Conference App. Made with ♥ in India
+
+## Screenshots
+
+<img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 1.jpeg">
+<img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 2.jpeg">
+<img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 3.jpeg">
 
 ## Features
 
@@ -36,8 +51,11 @@ Made with ♥ in India
 
 
 For Feedback or Suggestions:jayateertha043@gmail.com
+
 Privacy Policy:https://jayateertha043.github.io/Namma-Meet/policies.html
+
 The whole Project is now Open Sourced ,Feel free to contribute to it.
 Project Github URL:https://github.com/jayateertha043/Namma-Meet
+
 This Project is developed using Flutter and uses publicly hosted and Open Source Jitsi Server for secure and encrypted communication.
 
