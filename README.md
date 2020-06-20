@@ -18,7 +18,6 @@
 <img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 2.jpeg" height=310 width=155>
 <img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 3.jpeg" height=310 width=155>
 <img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 4.jpeg" height=310 width=155>
-</br>
 <img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 5.jpeg" height=310 width=155>
 <img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 6.jpeg" height=310 width=155>
 <img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 7.jpeg" height=310 width=155>
