@@ -13,7 +13,7 @@
 
 ## Screenshots
 
-<<<<<<< HEAD
+
 <img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 1.jpeg" height=310 width=155>
 <img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 2.jpeg" height=310 width=155>
 <img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 3.jpeg" height=310 width=155>
