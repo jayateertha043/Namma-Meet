@@ -1,4 +1,4 @@
-<h1 align="center"></h1>
+<h1 align="center">Namma: Meet</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/jayateertha043/Namma-Meet/blob/master/LICENCE.txt" target="_blank">
@@ -13,11 +13,20 @@
 
 ## Screenshots
 
-<img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 1.jpeg">
-<img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 2.jpeg">
-<img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 3.jpeg">
+<img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 1.jpeg" height=310 width=155>
+<img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 2.jpeg" height=310 width=155>
+<img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 3.jpeg" height=310 width=155>
+<img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 4.jpeg" height=310 width=155>
+</br>
+<img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 5.jpeg" height=310 width=155>
+<img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 6.jpeg" height=310 width=155>
+<img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 7.jpeg" height=310 width=155>
+<img src="https://github.com/jayateertha043/Namma-Meet/blob/master/screenshots/Image 8.jpeg" height=310 width=155>
 
-## Features
+
+## About 
+
+PlayStore Link: <a href="https://play.google.com/store/apps/details?id=com.japps.nammameet" target="_blank">View/Download App In Google Play Store</a>
 
 Stay Connected with your friends,family,colleagues or anyone ,anytime.
 
@@ -59,3 +68,19 @@ Project Github URL:https://github.com/jayateertha043/Namma-Meet
 
 This Project is developed using Flutter and uses publicly hosted and Open Source Jitsi Server for secure and encrypted communication.
 
+## Author
+
+👤 **Jayateertha G**
+
+* Twitter: [@jayateerthaG](https://twitter.com/jayateerthaG)
+* Github: [@jayateertha043](https://github.com/jayateertha043)
+
+## Show your support
+<a href="https://www.buymeacoffee.com/en3EoKG7j" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="50px" width="150px" ></a><br />
+Give a ⭐️ if this project helped you!
+
+
+## 📝 License
+
+Copyright © 2020 [Jayaateertha Guruprasad](https://github.com/jayateerthaa043).<br />
+This project is [MIT](https://github.com/jayateertha043/Namma-Meet/blob/master/LICENCE.txt) licensed.
