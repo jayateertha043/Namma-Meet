@@ -1,4 +1,4 @@
-<h1 align="center">Namma: Meet</h1>
+<h1 align="center">Namma Meet: Fast and Secure Video Conference App</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/jayateertha043/Namma-Meet/blob/master/LICENCE.txt" target="_blank">
@@ -9,7 +9,7 @@
   </a>
 </p>
 
->Namma: Meet -Fast and Secure Video Conference App. Made with ♥ in India
+>Namma Meet: Fast and Secure Video Conference App. Made with ♥ in India
 
 ## Screenshots
 
