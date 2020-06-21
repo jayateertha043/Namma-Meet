@@ -6,6 +6,7 @@
 -keep class io.flutter.**  { *; }
 -keep class io.flutter.plugins.**  { *; }
 
+
 #=== Jitsi ===#
 # Source: https://github.com/jitsi/jitsi-meet/blob/master/android/app/proguard-rules.pro
 # Check above link for changes if release builds are broken again

@@ -1,8 +1,13 @@
+import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
 import 'package:jitsi_meet/jitsi_meet.dart';
 import 'package:jitsi_meet/jitsi_meeting_listener.dart';
 import 'package:share/share.dart';
 import 'package:url_launcher/url_launcher.dart';
+
+
+final FirebaseAnalytics analytics= FirebaseAnalytics();
+
 class Room extends StatefulWidget {
   @override
   _RoomState createState() => _RoomState();
@@ -41,7 +46,7 @@ class _RoomState extends State<Room> {
       floatingActionButton: Padding(
         padding: const EdgeInsets.only(left: 35,bottom: 100),
         child: Align(alignment: Alignment.bottomCenter,child: FloatingActionButton(onPressed: (){
-          Share.share("Namma: Meet India's Fast and Secure Conference Meeting app.\nDownload Link:https://play.google.com/store/apps/details?id=com.japps.nammameet");
+          Share.share("Namma Meet: India's Fast and Secure Video Conference App.\nDownload Link:https://play.google.com/store/apps/details?id=com.japps.nammameet");
         },child: Icon(Icons.share))),
       ),
       resizeToAvoidBottomInset: false,
@@ -55,7 +60,7 @@ class _RoomState extends State<Room> {
               child: Center(
                   child: RichText(
                       text: TextSpan(
-                          text: "Namma:",
+                          text: "Namma",
                           style: TextStyle(
                               fontSize: dheight * 0.09,
                               color: Colors.white,
@@ -421,6 +426,7 @@ Center(child: InkWell(onTap: (){launch("https://jayateertha043.github.io/Namma-M
 
   _createMeeting() async {
     try {
+      await analytics.logEvent(name: "Create_Meeting");
       var options = JitsiMeetingOptions()
         ..room = roomText.text
         ..subject = subjectText.text
@@ -445,6 +451,7 @@ Center(child: InkWell(onTap: (){launch("https://jayateertha043.github.io/Namma-M
 
   _joinMeeting() async {
     try {
+      await analytics.logEvent(name: "Join_Meeting");
       var options = JitsiMeetingOptions()
         ..room = roomText.text
         ..userDisplayName = nameText.text

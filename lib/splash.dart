@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:nammameet/room.dart';
-
 class SplashScreen extends StatefulWidget {
   @override
   _SplashScreenState createState() => _SplashScreenState();
@@ -24,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Stack(
         //mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Center(child: Text('Namma:\n\t\t Meet',style: TextStyle(color: Colors.white,fontSize: 80,fontWeight: FontWeight.bold),)),
+            Center(child: Text('Namma\n\t\t Meet',style: TextStyle(color: Colors.white,fontSize: 80,fontWeight: FontWeight.bold),)),
             Padding(
               padding: const EdgeInsets.only(bottom:150),
               child: Align(alignment: Alignment.bottomCenter,child: CircularProgressIndicator()),

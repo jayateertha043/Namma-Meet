@@ -33,6 +33,7 @@
 android/key.properties
 android/app/google-services.json
 **/android/key.properties
+**/android/app/google-services.json
 # Web related
 lib/generated_plugin_registrant.dart
 
